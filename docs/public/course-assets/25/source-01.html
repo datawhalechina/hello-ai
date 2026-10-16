@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>中秋户外活动 · 10 个主题方向（200 人 / 2 小时 / 3000 元 / 半户外）</title>
+<style>
+  :root{
+    --ink:#1f2329;
+    --ink-2:#5a6470;
+    --line:#e3e6ea;
+    --bg:#ffffff;
+    --soft:#f6f7f9;
+    --red:#c8362f;
+    --red-soft:#fdf0ef;
+    --amber:#a8751c;
+    --amber-soft:#fdf6e8;
+    --green:#2f7d5b;
+    --green-soft:#eef8f2;
+    --blue:#2f6fb0;
+    --blue-soft:#eef4fb;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    padding:40px 28px 64px;
+    background:#f2f3f5;
+    color:var(--ink);
+    font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB","Source Han Sans SC",sans-serif;
+    font-size:14px;
+    line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+  }
+  .page{
+    max-width:1360px;
+    margin:0 auto;
+    background:var(--bg);
+    border-radius:14px;
+    padding:42px 46px 54px;
+    box-shadow:0 2px 20px rgba(31,35,41,.07);
+  }
+  h1{
+    font-size:25px;
+    margin:0 0 8px;
+    letter-spacing:.5px;
+  }
+  .sub{
+    color:var(--ink-2);
+    font-size:13px;
+    margin:0 0 6px;
+  }
+  .meta{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin:18px 0 30px;
+  }
+  .chip{
+    background:var(--soft);
+    border:1px solid var(--line);
+    border-radius:999px;
+    padding:4px 13px;
+    font-size:12.5px;
+    color:var(--ink-2);
+  }
+  .chip b{color:var(--ink);font-weight:600;}
+  h2{
+    font-size:17px;
+    margin:44px 0 14px;
+    padding-left:11px;
+    border-left:4px solid var(--red);
+    line-height:1.3;
+  }
+  h2 .en{
+    font-size:12px;
+    color:var(--ink-2);
+    font-weight:400;
+    margin-left:8px;
+    letter-spacing:0;
+  }
+  h3{
+    font-size:14.5px;
+    margin:26px 0 8px;
+    color:var(--ink);
+  }
+  table{
+    width:100%;
+    border-collapse:collapse;
+    font-size:13px;
+    table-layout:fixed;
+  }
+  thead th{
+    background:#f0f1f3;
+    color:#333a42;
+    font-weight:600;
+    text-align:left;
+    padding:11px 10px;
+    border-bottom:1.5px solid #d8dbdf;
+    font-size:12.5px;
+    vertical-align:middle;
+  }
+  tbody td{
+    padding:12px 10px;
+    border-bottom:1px solid var(--line);
+    vertical-align:top;
+    word-break:break-word;
+  }
+  tbody tr:nth-child(even){background:#fafbfc;}
+  tbody tr:hover{background:#f4f6f8;}
+  .num{
+    display:inline-block;
+    width:20px;height:20px;line-height:20px;
+    text-align:center;
+    border-radius:50%;
+    background:var(--ink);
+    color:#fff;
+    font-size:11.5px;
+    margin-right:6px;
+    font-weight:600;
+    vertical-align:1px;
+  }
+  .tname{font-weight:600;font-size:13.5px;}
+  .tag{
+    display:inline-block;
+    font-size:11.5px;
+    padding:1px 8px;
+    border-radius:4px;
+    line-height:1.6;
+    white-space:nowrap;
+  }
+  .t-low{background:var(--green-soft);color:var(--green);border:1px solid #d3e9dd;}
+  .t-mid{background:var(--amber-soft);color:var(--amber);border:1px solid #f0e0bd;}
+  .t-high{background:var(--red-soft);color:var(--red);border:1px solid #f3d5d2;}
+  .t-blue{background:var(--blue-soft);color:var(--blue);border:1px solid #d5e4f2;}
+  .t-gray{background:#f0f1f3;color:#5a6470;border:1px solid #e1e4e8;}
+  .money{font-weight:600;color:var(--ink);font-size:13px;}
+  .note{color:var(--ink-2);font-size:12px;display:block;margin-top:3px;}
+  ul{margin:8px 0 0;padding-left:19px;}
+  li{margin:5px 0;}
+  .box{
+    background:var(--soft);
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:18px 22px;
+    margin:14px 0;
+  }
+  .box.warn{background:var(--amber-soft);border-color:#f0e0bd;}
+  .box.warn h3{margin-top:0;color:var(--amber);}
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+    gap:14px;
+    margin-top:12px;
+  }
+  .card{
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:14px 16px;
+    background:#fff;
+  }
+  .card .k{font-size:12px;color:var(--ink-2);}
+  .card .v{font-size:18px;font-weight:700;margin:4px 0 2px;}
+  .card .d{font-size:12px;color:var(--ink-2);line-height:1.6;}
+  .rank{
+    display:flex;
+    gap:12px;
+    align-items:flex-start;
+    border:1px solid var(--line);
+    border-left:3px solid var(--red);
+    border-radius:8px;
+    padding:12px 16px;
+    margin:10px 0;
+    background:#fff;
+  }
+  .rank .r{
+    font-size:19px;font-weight:800;color:var(--red);
+    line-height:1.2;min-width:26px;
+  }
+  .rank .t{font-weight:600;font-size:13.5px;}
+  .rank .d{font-size:12.5px;color:var(--ink-2);}
+  .foot{
+    margin-top:40px;
+    padding-top:16px;
+    border-top:1px dashed var(--line);
+    font-size:12px;
+    color:var(--ink-2);
+  }
+  @media print{
+    body{background:#fff;padding:0;font-size:11.5px;}
+    .page{box-shadow:none;padding:0;border-radius:0;max-width:none;}
+    tbody tr:hover{background:transparent;}
+    h2{break-after:avoid;}
+    table{break-inside:auto;}
+    tr{break-inside:avoid;}
+  }
+  @media (max-width:900px){
+    body{padding:18px 10px 40px;}
+    .page{padding:22px 16px 30px;}
+    table{font-size:12px;}
+    thead th,tbody td{padding:9px 6px;}
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <h1>中秋户外活动 · 10 个主题方向</h1>
+  <p class="sub">面向约 200 位大一新生的校内中秋夜活动策划备选方案</p>
+  <div class="meta">
+    <span class="chip">预算 <b>3000 元</b>（人均 15 元）</span>
+    <span class="chip">时长 <b>2 小时</b></span>
+    <span class="chip">场地 <b>校内中央广场（半户外）</b></span>
+    <span class="chip">受众 <b>大一新生为主</b></span>
+    <span class="chip">风险 <b>可能下雨</b></span>
+  </div>
+
+  <h2>一、十个主题方向一览<span class="en">按氛围从"热闹"到"安静"排列</span></h2>
+
+  <table>
+    <colgroup>
+      <col style="width:15%">
+      <col style="width:16%">
+      <col style="width:9%">
+      <col style="width:23%">
+      <col style="width:20%">
+      <col style="width:17%">
+    </colgroup>
+    <thead>
+      <tr>
+        <th>主题名</th>
+        <th>一句话亮点</th>
+        <th>整体氛围</th>
+        <th>主要环节（5-7 个）</th>
+        <th>成本档位 / 可行性</th>
+        <th>雨天适配</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <tr>
+        <td class="tname"><span class="num">1</span>月下新声 · 草地迎新音乐会</td>
+        <td>给爱唱歌的新生一个当晚就能站上去的舞台，班级拉歌 PK 直接把陌生人唱成同学。</td>
+        <td><span class="tag t-high">热闹喜庆</span></td>
+        <td>点灯签到 · 破冰拉歌 · 班级合唱 PK · 校园乐队驻唱 · 灯谜抽奖 · 全场大合唱</td>
+        <td><span class="tag t-mid">中</span> <span class="money">1200-1800 元</span>
+          <span class="note">音响 + 灯光 + 舞台是全部成本；场地免费。200 人规模最稳的"人气王"，但设备运输与用电需提前报批。</span>
+        </td>
+        <td><span class="tag t-low">弱</span>
+          <span class="note">必须搭棚并给音响做防水，否则改期或转室内礼堂。</span>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="tname"><span class="num">2</span>玉兔巡游 · 中秋寻宝游园会</td>
+        <td>八个摊位打卡集章，逛完一圈就能兑走一整袋中秋礼物，人再多也不会挤在一个点上。</td>
+        <td><span class="tag t-high">热闹喜庆</span></td>
+        <td>玉兔人偶开场 · 八摊打卡 · 投壶猜谜 · 手作小摊 · 集章兑礼 · 抽奖开奖</td>
+        <td><span class="tag t-low">低-中</span> <span class="money">600-900 元</span>
+          <span class="note">成本几乎全是小礼品与摊位物料；真正的瓶颈是志愿者——200 人至少需要 20 位摊主 + 秩序组。</span>
+        </td>
+        <td><span class="tag t-mid">中</span>
+          <span class="note">摊位可整体搬到连廊或食堂门口继续跑。</span>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="tname"><span class="num">3</span>拜月雅集 · 汉服古风夜</td>
+        <td>穿汉服、听古琴、行拜月礼，把中秋过成一幅会动的古画。</td>
+        <td><span class="tag t-blue">古风雅致</span></td>
+        <td>汉服换装 · 焚香拜月礼 · 古琴古筝 · 月光茶席 · 团扇手作 · 月下诗会</td>
+        <td><span class="tag t-mid">中</span> <span class="money">800-1200 元</span>
+          <span class="note">汉服租赁 + 茶席器具占大头；氛围最好但参与门槛偏高，建议设"开放体验区"让不换装的同学也能进来。</span>
+        </td>
+        <td><span class="tag t-high">强</span>
+          <span class="note">整体移入礼堂或教室反而更贴合古风场景。</span>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="tname"><span class="num">4</span>一起捏个月亮 · 手作工坊夜</td>
+        <td>不买月饼，200 人现场一起做月饼、做灯笼，做完互赠送给陌生人。</td>
+        <td><span class="tag t-low">轻松治愈</span></td>
+        <td>冰皮月饼 DIY · 花草灯笼 · 手写灯谜签 · 拍照墙 · 互赠月饼 · 集体点亮</td>
+        <td><span class="tag t-low">低-中</span> <span class="money">500-800 元</span>
+          <span class="note">食材与材料按人数严格可控，人均不到 4 元；需提前统计过敏原，并准备免烤配方避免用电。</span>
+        </td>
+        <td><span class="tag t-high">强</span>
+          <span class="note">教室长桌即可复刻，几乎没有场景损失。</span>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="tname"><span class="num">5</span>追月计划 · 荧光夜跑</td>
+        <td>荧光手环连成一条流动的月亮河，跑完在终点一起分月饼。</td>
+        <td><span class="tag t-blue">青春热血 / 赛博荧光</span></td>
+        <td>荧光涂鸦 · 领跑人偶 · 3 公里夜跑 · 打卡补给 · 终点灯光秀 · 月饼补给</td>
+        <td><span class="tag t-low">低</span> <span class="money">400-700 元</span>
+          <span class="note">荧光装备 + 补给 + 路线指示即可；成本最低、传播力最强，但需体育部配合、医务点和路线报备。</span>
+        </td>
+        <td><span class="tag t-low">很弱</span>
+          <span class="note">雨天湿滑不能跑，只能改期，风险最高。</span>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="tname"><span class="num">6</span>月光影院 · 露天电影夜</td>
+        <td>铺着野餐垫、盖着小毯子，200 人挤在一起看一部中秋电影。</td>
+        <td><span class="tag t-low">轻松治愈</span></td>
+        <td>野餐垫占位 · 暖场短片 · 主影片放映 · 中场抽奖 · 月饼热茶派发 · 灯谜字幕彩蛋</td>
+        <td><span class="tag t-mid">中</span> <span class="money">900-1300 元</span>
+          <span class="note">投影 + 音响 + 幕布 + 200 张垫子是成本主体；玩法最省人力，适合人手紧张的情况。注意影片版权与夜间噪音投诉。</span>
+        </td>
+        <td><span class="tag t-mid">中</span>
+          <span class="note">移到体育馆或大教室可继续，只是失去露天感。</span>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="tname"><span class="num">7</span>灯谜擂台 · 月下最强大脑</td>
+        <td>把诗词大会搬进广场，以班级为单位组队 PK，赢一场就让全班跟着尖叫。</td>
+        <td><span class="tag t-blue">智趣竞技</span></td>
+        <td>班级组队 · 必答灯谜 · 抢答赛 · 飞花令 · 复活赛 · 冠军加冕</td>
+        <td><span class="tag t-low">低</span> <span class="money">300-600 元</span>
+          <span class="note">题库 + 题板 + 抢答器 + 奖品，成本极低；但对主持人和计时控场要求高，建议配一名"气氛托"。</span>
+        </td>
+        <td><span class="tag t-high">强</span>
+          <span class="note">室内舞台效果几乎一样，是最抗雨的方案之一。</span>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="tname"><span class="num">8</span>寄月邮局 · 写给四年后的自己</td>
+        <td>写一封信封存起来，毕业那年由学生会按约定寄回给你。</td>
+        <td><span class="tag t-low">温柔抒情</span></td>
+        <td>领信纸邮票 · 月光长桌写信 · 投放时间胶囊 · 手写月亮墙 · 集体点亮 · 合唱收尾</td>
+        <td><span class="tag t-low">低</span> <span class="money">200-400 元</span>
+          <span class="note">全场最省钱方案；真正的成本是"四年后真的寄回"的承诺，需要建立电子存档机制，否则会砸口碑。</span>
+        </td>
+        <td><span class="tag t-high">强</span>
+          <span class="note">室内更安静、更适合写信。</span>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="tname"><span class="num">9</span>家乡味 · 百人团圆长桌</td>
+        <td>每人带一口家乡味，200 个人在一张长桌上拼出一幅中国地图。</td>
+        <td><span class="tag t-high">烟火气 / 团圆热闹</span></td>
+        <td>家乡菜征集 · 长桌拼盘 · 地图贴纸定位 · 猜家乡 · 月饼分食 · 视频祝福</td>
+        <td><span class="tag t-low">低</span> <span class="money">400-800 元</span>
+          <span class="note">靠"每人带一道"把成本转移到学生端，补贴只补月饼与餐具；需统一食品安全与卫生要求，避免凉菜风险。</span>
+        </td>
+        <td><span class="tag t-mid">中</span>
+          <span class="note">需改到食堂或室内长桌。</span>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="tname"><span class="num">10</span>赛博月宫 · 投影超级月亮夜</td>
+        <td>把三米高的发光月亮挂上广场，扫码就能"登上月宫"打卡合影。</td>
+        <td><span class="tag t-high">赛博感 / 未来国潮</span></td>
+        <td>巨型发光月球 · 光影投影 · 电子灯笼 · 国风电音 DJ · AR 合影 · 激光秀</td>
+        <td><span class="tag t-high">中-高</span> <span class="money">1500-2500 元</span>
+          <span class="note">发光月球租赁/自制 + 投影 + DJ 吃掉大半预算；视觉最出片、最易上学校官微。无人机需额外加钱且校内多半无法批，建议用激光或投影替代。</span>
+        </td>
+        <td><span class="tag t-mid">中</span>
+          <span class="note">投影怕雨怕风，需提前准备室内备用场地或加固遮蔽。</span>
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  <h2>二、3000 元怎么分<span class="en">通用分配模板，按方案微调</span></h2>
+  <div class="grid">
+    <div class="card">
+      <div class="k">物料 / 礼品 / 手作材料</div>
+      <div class="v">1000-1200 元</div>
+      <div class="d">集章卡、礼品、DIY 耗材。人多时这部分最容易失控，务必按份数封顶。</div>
+    </div>
+    <div class="card">
+      <div class="k">设备租赁（音响 / 投影 / 灯光）</div>
+      <div class="v">700-900 元</div>
+      <div class="d">优先找校内社团或学院设备借用，可省下 300-500 元。</div>
+    </div>
+    <div class="card">
+      <div class="k">食品（月饼 / 茶饮 / 补给）</div>
+      <div class="v">500-700 元</div>
+      <div class="d">人均 2.5-3.5 元。月饼按 1.1 倍人数备货，宁可多 20 份。</div>
+    </div>
+    <div class="card">
+      <div class="k">应急备用金</div>
+      <div class="v">300 元</div>
+      <div class="d">用于雨棚、地垫、雨衣、临时补采。这笔钱不要提前花掉。</div>
+    </div>
+  </div>
+
+  <div class="box warn">
+    <h3>注意：人均只有 15 元</h3>
+    <p style="margin:4px 0 0;">凡是涉及"每人一份实物礼品"的方案（游园会、手作、家乡味），礼品单价必须压在 5 元以内；凡是涉及"大屏+音响"的方案（音乐会、影院、赛博月宫），设备费会独占一半预算。两者很难同时满足，选方案时先想清楚这次更想要"热闹的场面"还是"到手的纪念品"。</p>
+  </div>
+
+  <h2>三、雨天兜底方案<span class="en">这是本次活动的头号风险</span></h2>
+
+  <h3>1. 提前锁死一个平移场地</h3>
+  <p style="margin:4px 0;">活动前一周就去申请一间能装下 200 人的礼堂 / 体育馆 / 大教室，或广场旁的连廊、食堂门口。有备选场地，十个方案里已经有 6 个可以照常开（3、4、7、8 完全无损失）。</p>
+
+  <h3>2. 环节做成"乐高"</h3>
+  <p style="margin:4px 0;">每个环节单独成立、可拆可换顺序，不要设计"必须室外才能成立"的依赖（例如夜跑、露天放映、无人机）。室内版本只是场地不同，流程不动。</p>
+
+  <h3>3. 定一个明牌决策时间点</h3>
+  <ul>
+    <li>活动前 <b>24 小时</b>：看降水概率，若超过 60%，通知志愿者按室内版准备。</li>
+    <li>活动前 <b>3 小时</b>：最终决定。全员通过班群 / 公众号一次性通知，不要临时口头传。</li>
+    <li>风力超过 5 级：撤掉幕布、气球拱门、投影幕等大面积迎风物。</li>
+  </ul>
+
+  <h3>4. 花小钱买"不狼狈"</h3>
+  <p style="margin:4px 0;">备 60-80 件一次性雨衣（约 100 元）、若干防潮地垫、音响与投影的防水布。下雨时最怕的不是活动办不成，而是设备淋坏要赔钱。</p>
+
+  <h2>四、给大一新生的推荐排序<span class="en">按"参与门槛低 + 成本可控 + 抗雨"综合</span></h2>
+
+  <div class="rank">
+    <div class="r">1</div>
+    <div>
+      <div class="t">一起捏个月亮 · 手作工坊夜（方案 4）</div>
+      <div class="d">人均不到 4 元，200 人天然被长桌打散、不会出现"没人敢上台"的尴尬；室内照样成立，是最不容易翻车的一版。缺点是出片效果一般。</div>
+    </div>
+  </div>
+  <div class="rank">
+    <div class="r">2</div>
+    <div>
+      <div class="t">玉兔巡游 · 中秋寻宝游园会（方案 2）</div>
+      <div class="d">200 人分流到八个摊位，参与感最强，新生最容易在排队聊天里认识人。前提是你能拉到 20 位以上志愿者。</div>
+    </div>
+  </div>
+  <div class="rank">
+    <div class="r">3</div>
+    <div>
+      <div class="t">月下新声 · 草地迎新音乐会（方案 1）</div>
+      <div class="d">气氛天花板，最能把"中秋晚会"办出记忆点，适合作为整个迎新季的主场活动。但预算要压到 1800 以内、且必须解决雨天设备问题。</div>
+    </div>
+  </div>
+
+  <div class="box">
+    <h3 style="margin-top:0;">如果只能选一个组合拳</h3>
+    <p style="margin:4px 0 0;">主活动用<b>方案 7（灯谜擂台）</b>打底——成本 300-600 元、抗雨最强、控场简单；把省下的 2000 多元砸在<b>方案 4 的手作摊位</b>和<b>月饼茶饮</b>上，形成"台上比赛、台下动手"的双线现场。这样既有人气高点，又人人有参与，总价仍在 3000 元内。</p>
+  </div>
+
+  <div class="foot">
+    说明：以上金额为按 200 人规模的预估区间，实际以校内供应商报价为准；成本档位中，<span class="tag t-low">低</span> 指 600 元以内，<span class="tag t-mid">中</span> 指 600-1500 元，<span class="tag t-high">高</span> 指 1500 元以上。
+  </div>
+
+</div>
+</body>
+</html>

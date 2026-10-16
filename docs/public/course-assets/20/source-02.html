@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>如何读懂这篇综述 · 通俗版</title>
+<style>
+  :root{
+    --bg:#F7F7F5; --card:#FFFFFF; --line:#E3E2DC; --line2:#CFCEC6;
+    --ink:#1F1F1E; --ink2:#4A4A47; --ink3:#77776F;
+    --blue:#185FA5; --blue-bg:#E6F1FB; --blue-d:#0C447C;
+    --teal:#0F6E56; --teal-bg:#E1F5EE; --teal-d:#085041;
+    --amber:#854F0B; --amber-bg:#FAEEDA; --amber-d:#412402;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif;
+    font-size:15px;line-height:1.85;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:900px;margin:0 auto;padding:40px 26px 72px}
+  header{border-bottom:2px solid var(--ink);padding-bottom:20px;margin-bottom:36px}
+  .kicker{font-size:12px;letter-spacing:.14em;color:var(--ink3);text-transform:uppercase;margin-bottom:10px}
+  h1{font-size:25px;font-weight:600;margin:0 0 10px;line-height:1.4}
+  h2{font-size:19px;font-weight:600;margin:48px 0 14px;padding-left:12px;border-left:3px solid var(--blue)}
+  h2 .n{color:var(--ink3);font-weight:400;margin-right:8px;font-size:16px}
+  h3{font-size:15.5px;font-weight:600;margin:22px 0 8px;color:var(--ink)}
+  p{margin:10px 0}
+  .lede{font-size:16px;color:var(--ink2);background:var(--blue-bg);border-radius:10px;padding:18px 22px;line-height:1.85;margin:20px 0}
+  .lede b{color:var(--blue-d)}
+  .oneline{font-size:16.5px;font-weight:600;color:var(--amber-d);background:var(--amber-bg);
+    border-radius:10px;padding:14px 18px;margin:20px 0;text-align:center}
+  .stage{display:grid;grid-template-columns:140px 1fr;gap:18px;background:var(--card);
+    border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin:14px 0;
+    border-left:3px solid var(--blue)}
+  .stage .lh{font-weight:600;color:var(--blue-d);font-size:15px}
+  .stage .lp{font-size:12.5px;color:var(--ink3);margin-top:2px}
+  .stage .lb{font-size:14.5px;color:var(--ink2)}
+  .stage b{color:var(--ink)}
+  .stage ol{margin:6px 0;padding-left:22px}
+  .stage li{margin:4px 0;font-size:14px;color:var(--ink2)}
+  table{width:100%;border-collapse:collapse;margin:14px 0;background:var(--card);
+    border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:14px}
+  th{background:#F1F0EA;text-align:left;padding:10px 12px;font-weight:600;
+    border-bottom:1px solid var(--line2);font-size:13px;color:var(--ink2)}
+  td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.75}
+  tr:last-child td{border-bottom:none}
+  .flow{margin:18px 0;background:var(--card);border:1px solid var(--line);
+    border-radius:12px;padding:18px 22px}
+  .flow code{display:block;font-family:ui-monospace,Menlo,Consolas,monospace;
+    font-size:13.5px;line-height:1.85;color:var(--ink2)}
+  .flow .arrow{color:var(--ink3);text-align:center;font-size:13px}
+  .thread{display:grid;grid-template-columns:1fr 50px 1fr;gap:12px;
+    background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:16px 0}
+  .thread .l{background:var(--bg-secondary,#f0ece0);border-radius:8px;padding:12px 14px;font-size:14.5px;color:var(--ink2)}
+  .thread .r{background:var(--blue-bg);border-radius:8px;padding:12px 14px;font-size:14.5px;color:var(--blue-d)}
+  .thread .m{display:flex;align-items:center;justify-content:center;font-size:24px;color:var(--ink3)}
+  .imgwrap{margin:24px 0;background:var(--card);border:1px solid var(--line);
+    border-radius:12px;padding:20px;text-align:center}
+  .imgwrap svg{max-width:100%;height:auto}
+  .imgcap{font-size:12.5px;color:var(--ink3);margin-top:10px}
+  footer{margin-top:52px;padding-top:18px;border-top:1px solid var(--line2);
+    font-size:12.5px;color:var(--ink3);line-height:1.8}
+  @media print{body{background:#fff}.wrap{padding:0}.lede,.stage,.flow,.thread{break-inside:avoid}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="kicker">论文导读笔记 · 第一次写综述也能看懂</div>
+  <h1>如何读懂这篇综述</h1>
+  <p style="color:var(--ink3);font-size:14px;margin-top:6px">
+    目标文献：Kuo B, Li JH. <i>Pharmacologic Therapies for Type 2 Diabetes</i>. <i>NEJM Evidence</i>. 2025;4(9):EVIDra2400265
+  </p>
+</header>
+
+<h2><span class="n">01</span>一段话先看懂这篇论文</h2>
+
+<div class="lede">
+想象你是一位全科医生，每天看的最多的就是 2 型糖尿病。过去的治疗逻辑很简单：<b>血糖高了，就找能把血糖压下来的药</b>。这种"降糖优先"的想法，统治了糖尿病治疗很多年。
+<p style="margin:12px 0 0">然后 2007 年，一场风波打破了平静：一款叫罗格列酮的老药被发现可能增加心脏病风险，整个监管规则被改写——从那以后，几乎所有新降糖药上市前都要做大规模心脏安全性试验。这场风波意外带来了一个副产品：研究者发现，新一代的两类药（GLP-1 类与 SGLT2 类）<b>不仅降糖，还护心脏、护肾脏、防心衰</b>。这直接改变了医生开处方的思路。</p>
+<p style="margin:8px 0 0">这篇论文讲的就是<b>从那场风波到现在，糖尿病治疗思路发生的两段变化</b>：</p>
+<ul style="margin:6px 0">
+<li><b>用药逻辑变了</b>——以前默认二甲双胍是"万能首选"，现在指南悄悄松开了这个限制，要先看病人有没有心脏病、心衰、肾不好、特别胖等问题，挑一种能同时改善这些问题的药；</li>
+<li><b>手里的武器变了</b>——除了十几种老药，多了两大类新药（GLP-1 类、SGLT2 类），还有一款"双靶点"GIP/GLP-1 类，减肥效果更强。</li>
+</ul>
+<p style="margin:6px 0 0">最后论文展望了未来几年的新药管线，并给出一个总论断：<b>糖尿病治疗已经从"压血糖"时代进入"保器官"时代</b>。</p>
+</div>
+
+<div class="oneline">一句话总结：2 型糖尿病怎么治，要看"心肾好不好"，而不是只看"血糖高不高"。</div>
+
+<h2><span class="n">02</span>整篇论文的结构</h2>
+<p>论文一共 12 个章节（不含摘要），按写作功能可以合并成 5 块。每块我都按"要解决什么问题 → 重点写了什么 → 内容是怎么一步步组织的"来拆。</p>
+
+<h3>第 1 块 · 立题（摘要 + 引言，约 8% 篇幅）</h3>
+<div class="stage">
+  <div><div class="lh">要解决什么问题</div></div>
+  <div class="lb">让读者<b>搞清楚糖尿病到底是个多大的问题、过去的治疗逻辑是什么、本文打算讲什么</b>，并愿意继续往下读。</div>
+</div>
+
+<div class="stage">
+  <div><div class="lh">重点写了什么</div></div>
+  <div class="lb">
+    <ol>
+      <li>全球有 5.37 亿人患病，2045 年预计达到 7.83 亿；心血管事件风险为常人 2–4 倍，20–40% 合并慢性肾病；</li>
+      <li>目前的治疗规则（ADA 指南）：目标糖化血红蛋白 &lt;7%；以患者为中心；生活方式是一线（地中海饮食、每周 ≥150 分钟有氧、减重）；</li>
+      <li>末句"本综述概述……"——划定本文边界，告诉读者这篇不打算讲什么。</li>
+    </ol>
+  </div>
+</div>
+
+<div class="stage">
+  <div><div class="lh">怎么一步步组织</div></div>
+  <div class="lb">
+    <b>第 1 段</b>：纯数据（数字 + 并发症 + 心肾风险）—— 先让你意识到问题严重。<br>
+    <b>第 2 段</b>：立规则（指南 + 目标 + 生活方式）—— 再告诉你现在医生是按什么规矩在做。<br>
+    <b>关键观察</b>：两段都<b>不评述任何具体药物的证据</b>，只摆负担、立坐标、划边界。这是新手最容易出错的地方——引言一上来就把药讲一遍，结果正文没话说。
+  </div>
+</div>
+
+<h3>第 2 块 · 全景（药物选择总览，约 4% 篇幅，附表 1 + 图 1）</h3>
+<div class="stage">
+  <div><div class="lh">要解决什么问题</div></div>
+  <div class="lb">读者面对十几种药，<b>第一眼该看什么</b>？怎么从一堆药里看出"门道"？</div>
+</div>
+
+<div class="stage">
+  <div><div class="lh">重点写了什么</div></div>
+  <div class="lb">
+    <ol>
+      <li>指向<b>表 1</b>：把全部 7 类药（二甲双胍、磺脲类、格列奈类、DPP-4 抑制剂、TZD、α-糖苷酶抑制剂、加上 GLP-1 类与 SGLT2 类）的机制、降糖幅度、优势、劣势、安全注意全塞进一张表；</li>
+      <li>提出一个<b>统摄性论断</b>：以前默认二甲双胍为一线，如今指南不再硬性要求它首选，而是<b>按病人的具体情况个体化选药</b>；</li>
+      <li>句末给出<b>路线宣言</b>："接下来的章节将回顾支持心血管获益、肾脏获益与降糖疗效的证据。"</li>
+    </ol>
+  </div>
+</div>
+
+<div class="stage">
+  <div><div class="lh">怎么一步步组织</div></div>
+  <div class="lb">表 1（兜住全部老药，不让正文做清单）→ 论断（抛出"从降糖优先到结局优先"这条观点）→ 路线（用一句话宣告后面 6 节要讲什么）。这一段只有 165 词，但全文的合法性都建立在这里：<b>后面的 6 节都在为这个论断做证据</b>。</div>
+</div>
+
+<h3>第 3 块 · 展证（6 个按结局分的小节，约 46% 篇幅，全文主战场）</h3>
+<div class="stage">
+  <div><div class="lh">要解决什么问题</div></div>
+  <div class="lb">每种药在<b>不同病人</b>身上的真实成绩怎么样？到底有没有用、用了之后赢在哪？</div>
+</div>
+
+<div class="stage">
+  <div><div class="lh">重点写了什么</div></div>
+  <div class="lb">拆成 6 个临床结局来看：
+    <ol>
+      <li><b>心血管</b>：罗格列酮风波 → FDA 强制做心脏试验 → GLP-1 类与 SGLT2 类陆续带来获益；</li>
+      <li><b>心衰</b>：SGLT2 类三项试验都"无论有没有糖尿病"都获益，GLP-1 类无获益（特殊情况下减重类可改善心衰症状）；</li>
+      <li><b>肾脏</b>：DAPA-CKD、EMPA-KIDNEY、FLOW 三项关键试验 → 两类药对肾脏的获益相互独立；</li>
+      <li><b>降糖</b>：GLP-1 类降糖效果最强（除胰岛素外），SGLT2 类略弱；</li>
+      <li><b>联合用药</b>：两类药可以合用；</li>
+      <li><b>体重</b>：GIP/GLP-1 双靶点新药（替尔泊肽）减重效果最强。</li>
+    </ol>
+  </div>
+</div>
+
+<div class="stage">
+  <div><div class="lh">怎么一步步组织</div></div>
+  <div class="lb">这 6 节不是各讲各的，它们共用<b>同一个五步套路</b>：
+    <ol>
+      <li><b>承接</b>：一句话接到上一节；</li>
+      <li><b>铺证据</b>：按"药物类别 × 时间线"铺试验，最新的试验排最后；</li>
+      <li><b>处理矛盾与缺口</b>：试验结论冲突时给解释；没有证据时直说"没有头对头比较"；</li>
+      <li><b>收口</b>：用一句"因此临床上应……"落到图 1；</li>
+      <li><b>留白</b>：不确定的地方明说"需要更多研究"。</li>
+    </ol>
+  </div>
+</div>
+
+<h3>第 4 块 · 落地（安全性 + 胰岛素治疗，约 27% 篇幅，附图 2）</h3>
+<div class="stage">
+  <div><div class="lh">要解决什么问题</div></div>
+  <div class="lb">理想很丰满——这些新药确实有获益。但<b>临床上怎么做才不会出错</b>？哪些情况不能用？术前要不要停？剂量怎么调？</div>
+</div>
+
+<div class="stage">
+  <div><div class="lh">重点写了什么</div></div>
+  <div class="lb">
+    <ol>
+      <li>SGLT2 类药的"红线"：肾功能太差时（eGFR&lt;20）不能用；2020 年 FDA 撤销了截肢警告但仍建议高风险者慎用；正常血糖也会发生酮症酸中毒；</li>
+      <li>GLP-1 类药的"红线"：胃肠道反应从最低剂量起步 4 周后逐渐加量；胆道、胰腺、视网膜都有具体处理建议；甲状腺癌的两项研究结论打架（一个相关、一个不相关）；</li>
+      <li>胰岛素怎么和心肾获益药<b>共存</b>：即便用了胰岛素，也要继续保留能护心肾的药；加用 GLP-1 类时胰岛素要减量（图 2）。</li>
+    </ol>
+  </div>
+</div>
+
+<div class="stage">
+  <div><div class="lh">怎么一步步组织</div></div>
+  <div class="lb">把每一段都写成同一个三段式：<b>风险是什么 → 证据怎么说 → 临床该怎么做</b>。每段都尽量落到具体阈值——eGFR&lt;20、停 3 天、24 小时清流质、最低剂量起步 4 周。<b>安全性段落的好坏不在于"全面"，在于"可执行"</b>。这也是这篇综述最长的一节（占全文 20%），仅次于按结局分组的证据部分。</div>
+</div>
+
+<h3>第 5 块 · 收束（未来治疗格局 + 结论，约 11% 篇幅，附表 2）</h3>
+<div class="stage">
+  <div><div class="lh">要解决什么问题</div></div>
+  <div class="lb">现在的药够不够好？还有<b>什么没解决的问题</b>？未来会怎样？</div>
+</div>
+
+<div class="stage">
+  <div><div class="lh">重点写了什么</div></div>
+  <div class="lb">
+    <ol>
+      <li>现有药的根本<b>短板</b>：主要对付"血糖高"这个结果，没对付发病机制（胰岛素抵抗、分泌缺陷）；</li>
+      <li>5 类在研靶点：FGF21/脂联素、GKA、imeglimin、GPR40/119/120、三联激动剂；每个 1–3 句，<b>标注临床阶段</b>（1 期/2 期/3 期/已获批），全部指向表 2；</li>
+      <li><b>结论</b>：4 句话——药物选择扩展了、新药保护心肾、范式从控糖转向保器官、未来要探索联合治疗与新靶点。</li>
+    </ol>
+  </div>
+</div>
+
+<div class="stage">
+  <div><div class="lh">怎么一步步组织</div></div>
+  <div class="lb">先说现有药治不了什么（铺垫）→ 再说新方向在哪里（指向表 2）→ 最后升维到一个总论断。结论段<b>零引用、零新数据</b>，全部是回指——这是新手最容易写错的地方：往结论里塞新数据、新药、新试验。</div>
+</div>
+
+<h2><span class="n">03</span>各部分是怎么串起来的</h2>
+
+<p>整篇论文的逻辑不是"先讲现状、再讲进展"，而是<b>像一条流水线，从问题一步步推到行动</b>：</p>
+
+<div class="flow">
+<code>问题（糖尿病 + 心肾风险）
+  ↓
+全景（表 1 兜住所有药 + 提一个论断）
+  ↓
+按病人结局分组铺证据（6 节，每节五步套路）
+  ↓
+怎么用才不出错（安全性 + 胰岛素）
+  ↓
+未来 + 结论（升维）
+</code>
+</div>
+
+<p>这个顺序的妙处在于：<b>读者每读一段，都会自然产生下一个问题</b>。</p>
+
+<table>
+<tr><th>读完……</th><th>读者会问……</th><th>于是进入……</th></tr>
+<tr><td>问题（糖尿病 + 心肾风险）</td><td>那医生到底该选哪个药？</td><td>全景</td></tr>
+<tr><td>全景（表 + 论断）</td><td>凭什么这么选？有什么证据？</td><td>证据（6 节）</td></tr>
+<tr><td>证据（6 节）</td><td>那临床上具体怎么用？</td><td>落地（安全 + 胰岛素）</td></tr>
+<tr><td>落地</td><td>以后会不会有更好的药？</td><td>收束（未来 + 结论）</td></tr>
+</table>
+
+<p>这种<b>"问答链条"</b>是文章让人能读下去的根本原因。<b>不是作者在罗列知识，是读者在被一步步领着走</b>。</p>
+
+<p>而贯穿全文的那条主线，是一个<b>"思维切换"</b>：</p>
+
+<div class="thread">
+  <div class="l">旧逻辑：血糖高 → 选降糖最强的药 → 看血糖降了多少</div>
+  <div class="m">→</div>
+  <div class="r">新逻辑：心肾/代谢出问题 → 选能护心肾的药 → 看心肾事件减没减</div>
+</div>
+
+<p>每一节"证据"部分都在用具体试验反复强化这条主线；最后的结论把它凝练成"范式转变"。所以你读完会觉得：<b>虽然信息量很大，但从头到尾都在讲同一件事</b>。这正是主线明确的好处。</p>
+
+<h2><span class="n">04</span>这篇论文好在哪里</h2>
+
+<h3>写法层面（可学的技术）</h3>
+<table>
+<tr><th>这篇的做法</th><th>为什么好</th><th>你写的时候怎么用</th></tr>
+<tr><td>按"病人结局"分章，而不是按药物分类</td><td>读者跟着"想"而不是跟着"记"；避免每一类药重复叙述同一套内容</td><td>章节标题用"心血管/心衰/肾脏/降糖"等结局词，不用"GLP-1/SGLT2"作为标题</td></tr>
+<tr><td>表格承担"老药 + 全景"</td><td>全文只展开 4 个主角药，却能号称覆盖 13 种药</td><td>准备一张横向对比表，把成熟信息压进去</td></tr>
+<tr><td>主动写"不知道"和"试验打架"</td><td>让综述像可信的替代品，不像药物推广</td><td>写"目前没有头对头比较"、"两项研究结论不一致，可能因为……"</td></tr>
+<tr><td>每一节都有"因此，临床上应……"</td><td>综述像给临床医生的指南，不只是文献堆叠</td><td>每节最后一句落到可执行动作，并指向图/表</td></tr>
+<tr><td>结论零引用、零新数据</td><td>结论是升维，不是补充</td><td>公式：2 句回指 + 1 句范式转变 + 1 句展望</td></tr>
+<tr><td>安全性部分用大量具体阈值</td><td>"可执行性"才是安全性段落的价值，不是"全面性"</td><td>多用数字：eGFR&lt;20、停 3 天、24h 清流质、最低剂量起步 4 周</td></tr>
+</table>
+
+<h3>内容层面（可学的观点贡献）</h3>
+<ul>
+<li><b>整合了 2020–2025 年的最新证据</b>：包括 SOUL（2025）、SELECT、FLOW（2024）、STEP-HFpEF、DELIVER、EMPA-KIDNEY 等多个大型随机试验——一篇综述把这些分散在 5 年间的试验集中串起来。</li>
+<li><b>提出"以结局而非药物类别"作为组织框架</b>：这是这篇综述最显眼的观点贡献，与同期发表的 JAMA 那篇"诊断与治疗"在组织方式上有明显不同。</li>
+<li><b>把"用药人群"扩展到无糖尿病人群</b>：SELECT、STEP-HFpEF、DAPA-CKD、EMPA-KIDNEY 都讨论了"无糖尿病但肥胖/心衰/肾病患者"的获益，是近 5 年的新边界。</li>
+<li><b>系统综述了安全性与围术期处理</b>：包括 2020 年 FDA 撤销 SGLT2 类截肢警告的来龙去脉、2024 年多学会围术期共识——这些零散信息平时很难集中查证。</li>
+<li><b>盘点在研靶点</b>：覆盖了 FGF21/脂联素、GKA、imeglimin、GPR40/119/120、GLP-1/GIP/胰高血糖素三联激动剂等前沿分子，每个标注临床阶段。</li>
+</ul>
+
+<p style="color:var(--ink3);font-size:13.5px">以上是论文里明确写到的内容。未提及的（如读者反馈、销量、被拒几次）我不会推测。</p>
+
+<h2><span class="n">05</span>一张图总结全文写作思路</h2>
+
+<div class="imgwrap">
+<svg viewBox="0 0 680 320" width="100%" role="img" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif">
+<title>论文写作逻辑摘要</title>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+<text x="40" y="30" font-size="14" font-weight="500" fill="#0C447C" dominant-baseline="central">论文写作逻辑：把"十几种药"讲成一个故事</text>
+<text x="40" y="48" font-size="12" fill="#5F5E5A" dominant-baseline="central">起承转合 · 一条主线 · 每节五步</text>
+
+<rect x="40" y="68" width="148" height="80" rx="10" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text x="114" y="88" font-size="14" font-weight="500" fill="#0C447C" text-anchor="middle" dominant-baseline="central">① 立题</text>
+<text x="114" y="108" font-size="12" fill="#5F5E5A" text-anchor="middle" dominant-baseline="central">摘要 + 引言</text>
+<text x="114" y="128" font-size="12" fill="#0C447C" text-anchor="middle" dominant-baseline="central">摆问题、定边界、立坐标</text>
+
+<path d="M188 108 L204 108" fill="none" stroke="#888780" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<rect x="204" y="68" width="148" height="80" rx="10" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text x="278" y="88" font-size="14" font-weight="500" fill="#0C447C" text-anchor="middle" dominant-baseline="central">② 全景</text>
+<text x="278" y="108" font-size="12" fill="#5F5E5A" text-anchor="middle" dominant-baseline="central">药物选择 + 表 1 + 图 1</text>
+<text x="278" y="128" font-size="12" fill="#0C447C" text-anchor="middle" dominant-baseline="central">一张表 + 一个论断 + 一句路线</text>
+
+<path d="M352 108 L368 108" fill="none" stroke="#888780" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<rect x="368" y="68" width="148" height="80" rx="10" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text x="442" y="88" font-size="14" font-weight="500" fill="#0C447C" text-anchor="middle" dominant-baseline="central">③ 展证</text>
+<text x="442" y="108" font-size="12" fill="#5F5E5A" text-anchor="middle" dominant-baseline="central">6 节按结局</text>
+<text x="442" y="128" font-size="12" fill="#0C447C" text-anchor="middle" dominant-baseline="central">每节共用五步套路</text>
+
+<path d="M516 108 L532 108" fill="none" stroke="#888780" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<rect x="532" y="68" width="108" height="80" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text x="586" y="88" font-size="14" font-weight="500" fill="#085041" text-anchor="middle" dominant-baseline="central">④ 收束</text>
+<text x="586" y="108" font-size="11" fill="#5F5E5A" text-anchor="middle" dominant-baseline="central">安全+胰岛素+未来+结论</text>
+<text x="586" y="128" font-size="12" fill="#085041" text-anchor="middle" dominant-baseline="central">可执行 + 升维</text>
+
+<rect x="372" y="166" width="46" height="24" rx="6" fill="#FFFFFF" stroke="#378ADD" stroke-width="0.5"/>
+<text x="395" y="178" font-size="11" fill="#0C447C" text-anchor="middle" dominant-baseline="central">心血管</text>
+<rect x="424" y="166" width="46" height="24" rx="6" fill="#FFFFFF" stroke="#378ADD" stroke-width="0.5"/>
+<text x="447" y="178" font-size="11" fill="#0C447C" text-anchor="middle" dominant-baseline="central">心衰</text>
+<rect x="476" y="166" width="46" height="24" rx="6" fill="#FFFFFF" stroke="#378ADD" stroke-width="0.5"/>
+<text x="499" y="178" font-size="11" fill="#0C447C" text-anchor="middle" dominant-baseline="central">肾脏</text>
+
+<rect x="372" y="194" width="46" height="24" rx="6" fill="#FFFFFF" stroke="#378ADD" stroke-width="0.5"/>
+<text x="395" y="206" font-size="11" fill="#0C447C" text-anchor="middle" dominant-baseline="central">降糖</text>
+<rect x="424" y="194" width="46" height="24" rx="6" fill="#FFFFFF" stroke="#378ADD" stroke-width="0.5"/>
+<text x="447" y="206" font-size="11" fill="#0C447C" text-anchor="middle" dominant-baseline="central">联合</text>
+<rect x="476" y="194" width="46" height="24" rx="6" fill="#FFFFFF" stroke="#378ADD" stroke-width="0.5"/>
+<text x="499" y="206" font-size="11" fill="#0C447C" text-anchor="middle" dominant-baseline="central">体重</text>
+
+<rect x="40" y="244" width="600" height="52" rx="10" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/>
+<text x="50" y="262" font-size="12" font-weight="500" fill="#412402" dominant-baseline="central">旧逻辑：血糖高 → 选降糖最强的药</text>
+<path d="M300 262 L320 262" fill="none" stroke="#854F0B" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="330" y="262" font-size="12" font-weight="500" fill="#412402" dominant-baseline="central">新逻辑：心肾出问题 → 选能护心肾的药</text>
+<text x="340" y="284" font-size="11" fill="#854F0B" text-anchor="middle" dominant-baseline="central">这是全文的主线，也是这篇综述的标志性贡献</text>
+</svg>
+<div class="imgcap">一句话总结：起承转合四步走，按"病人结局"分章展开，全文串在"从降糖优先到结局优先"这条主线上。</div>
+</div>
+
+<footer>
+本笔记只解析"论文在讲什么、为什么这样讲、好在哪"。写作层面的更详细拆解（包括每节内部套路、8 个可照抄的写作动作、可套用的中文版大纲模板）已在工作区的 <b>综述写作拆解_NEJM药物治疗T2D.html</b> 中给出。
+</footer>
+
+</div>
+</body>
+</html>
