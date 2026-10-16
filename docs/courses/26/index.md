@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 26 AI备考小测
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7915) · [飞书源稿](https://datawhaler.feishu.cn/wiki/F10FwvriUiwQbnkMlpxcXcwunbf)
+[官网课程](https://www.datawhale.cn/learn/content/382/7915)
 
 **教程定位**：2小时内，从"随便问问AI"到"用AI产出可交互的复习材料"。
 

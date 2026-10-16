@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 16 数据分析与洞察
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7943) · [飞书源稿](https://datawhaler.feishu.cn/docx/AAzEdGVfAoMmRoxatt3cxqgZnef)
+[官网课程](https://www.datawhale.cn/learn/content/382/7943)
 
 > 让 AI 帮你从繁琐的数据清洗中解脱出来，快速整理复杂的数据和文字，做出直观的图表，发现数据背后值得关注的问题。
 

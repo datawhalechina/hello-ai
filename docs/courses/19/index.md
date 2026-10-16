@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 19 AI for Science入门
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7941) · [飞书源稿](https://datawhaler.feishu.cn/docx/L3EZdkIz3oXGG8x1T3ZcGc9Jn9b)
+[官网课程](https://www.datawhale.cn/learn/content/382/7941)
 
 > AI for Science，帮助我们寻找科学证据、理解研究方法、识别结论的适用范围。
 

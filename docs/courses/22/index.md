@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 22 用AI管理碎片化知识
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7945) · [飞书源稿](https://datawhaler.feishu.cn/wiki/GYKnw6nUfi7oB3kUJ1acYEoLnQa?from=from_copylink)
+[官网课程](https://www.datawhale.cn/learn/content/382/7945)
 
 > **随手捕捉灵感、收藏内容、重新发现价值**
 

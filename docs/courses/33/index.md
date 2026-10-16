@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 33 选题发现：自动检索热点并找到值得做的选题
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7926) · [飞书源稿](https://magicyang.feishu.cn/wiki/R9IjwyzVPizAhlkfJN3cKIEEn2f)
+[官网课程](https://www.datawhale.cn/learn/content/382/7926)
 
 做自媒体最头疼的就是找选题。热点那么多，不知道哪些值得追，更不知道从哪个角度切入。读完这篇教程，你能用两个工具自动抓取热点、找到原始资料、筛选出真正值得做的选题，最后留下一张**选题清单**和一份**选题说明**。
 

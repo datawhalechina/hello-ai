@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 05 信息检索与整理
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7928) · [飞书源稿](https://datawhaler.feishu.cn/docx/ANOQdeGYroVmaQxy1CncAMg3n8g)
+[官网课程](https://www.datawhale.cn/learn/content/382/7928)
 
 ## 第一部分
 

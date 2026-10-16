@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 21 用户研究与需求验证
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7911) · [飞书源稿](https://datawhaler.feishu.cn/docx/MNaudWB3hoNH2lxifiocXB8lnfg)
+[官网课程](https://www.datawhale.cn/learn/content/382/7911)
 
 > **让 AI 帮你把访谈材料、问卷开放题、用户评论等里的零散声音，整理成能直接支撑决策的发现与洞察，并用最低成本判断一个需求到底是真需求还是伪需求。**
 

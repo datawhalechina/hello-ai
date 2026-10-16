@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 34 文案改写：一份素材，写成三个平台的内容
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7927) · [飞书源稿](https://p0uxgq31evx.feishu.cn/wiki/Nl9iwzY9ciiKEckVt9XcJ8j9nJd)
+[官网课程](https://www.datawhale.cn/learn/content/382/7927)
 
 > 把同一份内容，改成公众号、知乎、小红书三个版本。不同平台有各自的风格特征，你只需提供观点和例子，AI 帮忙整理句子和各平台的适配风格，即可审核发布文案
 

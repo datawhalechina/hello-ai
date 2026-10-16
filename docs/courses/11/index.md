@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 11 如何写好AI提示词
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7936) · [飞书源稿](https://datawhaler.feishu.cn/docx/CV1BdKrTEovZrGxPcjhcMDNQn2c)
+[官网课程](https://www.datawhale.cn/learn/content/382/7936)
 
 ## **一、总览**
 

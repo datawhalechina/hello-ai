@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 06 AI辅助撰写保研考研邮件
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7930) · [飞书源稿](https://datawhaler.feishu.cn/docx/W1K2dXwJVohuVoxjJk8cmRlenee)
+[官网课程](https://www.datawhale.cn/learn/content/382/7930)
 
 > **让 AI 帮你写出主题清晰、内容对口、没有低级错误的联系导师邮件。**
 > 

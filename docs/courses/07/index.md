@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 07 AI编程快速入门
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7931) · [飞书源稿](https://datawhaler.feishu.cn/docx/RALddGKBcoymY6xefEgcFWKBned)
+[官网课程](https://www.datawhale.cn/learn/content/382/7931)
 
 > 目标：用 Cursor 或 Bolt 制作“每日三件事”网页，支持添加、完成、删除和浏览器本地保存。预计用时 20～40 分钟，两个工具任选其一。
 

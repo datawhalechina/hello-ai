@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 17 用AI管理系统化学习笔记
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7944) · [飞书源稿](https://datawhaler.feishu.cn/docx/IJJXd8ssJoOGjjxOAdmcSNMSnmc)
+[官网课程](https://www.datawhale.cn/learn/content/382/7944)
 
 > **整理课程知识、建立知识体系、辅助理解与复习**
 

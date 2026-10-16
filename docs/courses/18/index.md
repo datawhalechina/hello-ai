@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 18 AI 时代的信息辨别与独立判断
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7908) · [飞书源稿](https://datawhaler.feishu.cn/docx/Pxobd4n0hoGicTxkB5DcAzR1nZc)
+[官网课程](https://www.datawhale.cn/learn/content/382/7908)
 
 > **AI 写出来的内容越来越像真的：数字、专家、出处一应俱全，但很可能是查无此数、查无此人、查无此文。这篇教程中，让我们把一条可疑信息交给 AI 做拆解、查证、交叉对比和对账，帮助你高效验证真伪。**
 

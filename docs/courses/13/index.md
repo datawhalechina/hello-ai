@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 13 短视频策划与AI制作
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7938) · [飞书源稿](https://datawhaler.feishu.cn/docx/Rqy4dsdSOoz24bx2wvFcvLUZnTh)
+[官网课程](https://www.datawhale.cn/learn/content/382/7938)
 
 > **解决的问题：**短视频制作时没有分镜、角色前后不一致、运镜不可控、旁白生硬、剪辑顺序不清楚。
 > 

@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 14 数据叙事与可视化
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7939) · [飞书源稿](https://datawhaler.feishu.cn/docx/JFaKduyRqoYe08xgFpIcAZZ9n0d)
+[官网课程](https://www.datawhale.cn/learn/content/382/7939)
 
 > **读完这份教程，你将能用 AI 把一份普通 Excel 数据，变成一张几秒看懂、适合传播的数据故事图。**
 

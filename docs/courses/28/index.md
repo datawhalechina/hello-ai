@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 28 用 AI 整理文件
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7918) · [飞书源稿](https://datawhaler.feishu.cn/wiki/BIJbw3s91iVyqQkKdjSc769rnSd)
+[官网课程](https://www.datawhale.cn/learn/content/382/7918)
 
 ## 第一部分：用 AI 整理电脑文件
 

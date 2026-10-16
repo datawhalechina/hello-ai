@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 23 使用AI辅助制作简历
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7912) · [飞书源稿](https://datawhaler.feishu.cn/wiki/Oat7wsXJZiaPlJkAtdTcVB3qnid)
+[官网课程](https://www.datawhale.cn/learn/content/382/7912)
 
 > 让 AI 帮你先读懂岗位需要什么，再从自己的真实经历中筛选和整理最相关的内容，最后配合 LaTeX 和 Overleaf，快速制作一份结构清晰、排版稳定、可以直接导出 PDF 的简历。
 

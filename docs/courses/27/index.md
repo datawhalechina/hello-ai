@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 27 AI 准备面试
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7916) · [飞书源稿](https://datawhaler.feishu.cn/wiki/O0QIwrUrdiTN3tkrpGycLZLwnmh)
+[官网课程](https://www.datawhale.cn/learn/content/382/7916)
 
 ## 第一部分：用 AI 准备面试
 

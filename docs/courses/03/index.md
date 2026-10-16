@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 03 表格数据分析
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7923) · [飞书源稿](https://datawhaler.feishu.cn/docx/R04Od5AfgotOW6x0FnMcUPxmnrh)
+[官网课程](https://www.datawhale.cn/learn/content/382/7923)
 
 ## 第一部分
 

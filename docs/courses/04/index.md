@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 04 会议纪要自动化
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7925) · [飞书源稿](https://datawhaler.feishu.cn/docx/ITnxdfHX0o5AHGxHJUzcNs9Un8g)
+[官网课程](https://www.datawhale.cn/learn/content/382/7925)
 
 ## 第一部分：会议纪要自动化入门
 

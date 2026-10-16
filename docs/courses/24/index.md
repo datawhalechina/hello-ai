@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 24 AI辅助设计问卷
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7913) · [飞书源稿](https://datawhaler.feishu.cn/wiki/ZdZ7wxqHxix1ISkyZDtcs1LdnGh?from=from_copylink)
+[官网课程](https://www.datawhale.cn/learn/content/382/7913)
 
 > 让 AI 帮你把一份问卷从想法做到能发放：理清调研目标、搭出问卷框架、生成题目、检查常见错误。
 

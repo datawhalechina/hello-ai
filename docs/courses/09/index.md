@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 09 智能体与自动化搭建
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7934) · [飞书源稿](https://datawhaler.feishu.cn/docx/QCQCdMRXLoL57dxoKArcYjtRnCe)
+[官网课程](https://www.datawhale.cn/learn/content/382/7934)
 
 ## 第一部分：搭建第一个智能体与自动化任务
 

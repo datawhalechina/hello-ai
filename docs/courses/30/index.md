@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 30 AI绘图/图像生成
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7920) · [飞书源稿](https://datawhaler.feishu.cn/wiki/VI9ewbuAdiEZ56ktEnbcUTQZnub)
+[官网课程](https://www.datawhale.cn/learn/content/382/7920)
 
 ## 第一部分：AI 绘图与图像生成
 

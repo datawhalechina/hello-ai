@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 29 日程管理 一键导入课程文件
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7919) · [飞书源稿](https://datawhaler.feishu.cn/wiki/Cu7JwAPOtinULokanPpcaUUDnDf?from=from_copylink)
+[官网课程](https://www.datawhale.cn/learn/content/382/7919)
 
 ## 第一部分：做日程管理——把课程文件转成 ICS 导入手机日历
 

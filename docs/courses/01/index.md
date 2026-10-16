@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 01 AI辅助文档写作
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7917) · [飞书源稿](https://datawhaler.feishu.cn/docx/CoBvdjwDhoqU38xqZ6Vcr9O3nJg)
+[官网课程](https://www.datawhale.cn/learn/content/382/7917)
 
 > 用时：首次30分钟，长期15分钟
 > 

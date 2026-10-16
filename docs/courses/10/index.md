@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 10 工作流自动化设计
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7935) · [飞书源稿](https://datawhaler.feishu.cn/docx/U3UUdVGt8oZ554xXjKCcxUa9n7d)
+[官网课程](https://www.datawhale.cn/learn/content/382/7935)
 
 > **适用人群：**第一次设计自动化流程的学习者；**预计用时：**25～35 分钟；**主要工具：**WorkBuddy；**最终产出：**一个可定时运行的关注热点新闻收集流程及验收标准。
 

@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 08 应用快速开发
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7933) · [飞书源稿](https://datawhaler.feishu.cn/docx/SyDwdstoko6XpAx58MbcDekUnrG)
+[官网课程](https://www.datawhale.cn/learn/content/382/7933)
 
 > 用时：首次约 50 分钟（含下载安装），熟悉后 20 分钟
 > 

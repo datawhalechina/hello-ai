@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 31 视频生产：把拍过的素材更快变成可发布的视频
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7922) · [飞书源稿](https://datawhaler.feishu.cn/wiki/DzoCwoC3niRM5ek8372c2s3SnDf)
+[官网课程](https://www.datawhale.cn/learn/content/382/7922)
 
 ## 01｜这份内容能帮我解决什么？
 

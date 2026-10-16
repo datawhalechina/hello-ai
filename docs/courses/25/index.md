@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 25 做社团活动策划方案
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7914) · [飞书源稿](https://datawhaler.feishu.cn/wiki/XQIywwn7uiYgZdkaiSFcmZdJnGd?from=from_copylink)
+[官网课程](https://www.datawhale.cn/learn/content/382/7914)
 
 ## **一、总览**
 

@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 35 素材管理：把散落的自媒体素材整理成素材库
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7932) · [飞书源稿](https://p0uxgq31evx.feishu.cn/docx/Kd1Ud79g6oARnFxa4yGc5gKUndg)
+[官网课程](https://www.datawhale.cn/learn/content/382/7932)
 
 找一个你平时存素材的文件夹，借助能读电脑文件的AI工具，整理出一份方案：文件清单、新的文件夹结构、命名规则、每个文件改成什么名字放到哪里，还有需要再确认的文件，以及改错了怎么恢复。
 

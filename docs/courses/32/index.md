@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 32 数据复盘：小红书账号数据分析
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7924) · [飞书源稿](https://magicyang.feishu.cn/wiki/HWqRwlN7gi7poAkJbCecmqnynOf)
+[官网课程](https://www.datawhale.cn/learn/content/382/7924)
 
 作为自媒体创业者，常常觉得流量是个谜，发同一个热点，为什么其他人的帖子能够火起来，而自己的却不能。创作者平台虽然提供了部分数据，但依然看不透数据背后的原因。这里介绍一个skill：[**social-account-doctor**](<https://github.com/JuneYaooo/social-account-doctor>) **，**你可以对自己的小红书账号或的对标博主账号进行一次详细的账号内容诊断。
 

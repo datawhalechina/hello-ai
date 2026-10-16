@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 36 依据个人账单生成财务分析报告
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7946) · [飞书源稿](https://datawhaler.feishu.cn/wiki/TJSLwdRBfi5YgskcSHPcecrvnse)
+[官网课程](https://www.datawhale.cn/learn/content/382/7946)
 
 ## 第一部分：依据个人账单生成财务分析报告
 

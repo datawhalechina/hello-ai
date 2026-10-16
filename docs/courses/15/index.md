@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 15 个人品牌与数字名片
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7940) · [飞书源稿](https://datawhaler.feishu.cn/docx/CSixd8zZpohSKjxzUOdcFM7Rnwe)
+[官网课程](https://www.datawhale.cn/learn/content/382/7940)
 
 ## 第一部分：基础教程
 

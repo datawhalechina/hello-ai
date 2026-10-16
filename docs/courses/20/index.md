@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 20 学术写作与论文辅助
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7942) · [飞书源稿](https://datawhaler.feishu.cn/docx/TgfXdrGZkoMMjkxNYr3cVHtvnkb)
+[官网课程](https://www.datawhale.cn/learn/content/382/7942)
 
 ## 第一部分 总览
 

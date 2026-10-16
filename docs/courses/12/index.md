@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 12 AI辅助写作全流程
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7937) · [飞书源稿](https://datawhaler.feishu.cn/docx/SCuSdRMkIoMmdQx24udcm0ctnrf)
+[官网课程](https://www.datawhale.cn/learn/content/382/7937)
 
 ## 第一部分 总览
 

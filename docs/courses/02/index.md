@@ -5,7 +5,7 @@ outline: [2, 3]
 
 # 02 辅助PPT与演示
 
-[官网课程](https://www.datawhale.cn/learn/content/382/7921) · [飞书源稿](https://datawhaler.feishu.cn/docx/V1B9dSjL4o6Pvixpo3qcKDXAnAe)
+[官网课程](https://www.datawhale.cn/learn/content/382/7921)
 
 ## 第一部分
 
