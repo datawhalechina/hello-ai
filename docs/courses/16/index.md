@@ -3,7 +3,7 @@ title: "数据分析与洞察"
 outline: [2, 3]
 ---
 
-# 16 数据分析与洞察
+# 数据分析与洞察
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7943)
 

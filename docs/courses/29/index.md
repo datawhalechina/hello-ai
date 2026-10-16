@@ -3,7 +3,7 @@ title: "日程管理 一键导入课程文件"
 outline: [2, 3]
 ---
 
-# 29 日程管理 一键导入课程文件
+# 日程管理 一键导入课程文件
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7919)
 

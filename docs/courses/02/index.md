@@ -3,7 +3,7 @@ title: "辅助PPT与演示"
 outline: [2, 3]
 ---
 
-# 02 辅助PPT与演示
+# 辅助PPT与演示
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7921)
 

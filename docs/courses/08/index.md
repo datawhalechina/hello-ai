@@ -3,7 +3,7 @@ title: "应用快速开发"
 outline: [2, 3]
 ---
 
-# 08 应用快速开发
+# 应用快速开发
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7933)
 

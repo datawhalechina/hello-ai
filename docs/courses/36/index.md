@@ -3,7 +3,7 @@ title: "依据个人账单生成财务分析报告"
 outline: [2, 3]
 ---
 
-# 36 依据个人账单生成财务分析报告
+# 依据个人账单生成财务分析报告
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7946)
 

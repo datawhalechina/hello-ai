@@ -3,7 +3,7 @@ title: "智能体与自动化搭建"
 outline: [2, 3]
 ---
 
-# 09 智能体与自动化搭建
+# 智能体与自动化搭建
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7934)
 

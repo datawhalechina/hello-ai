@@ -3,7 +3,7 @@ title: "个人品牌与数字名片"
 outline: [2, 3]
 ---
 
-# 15 个人品牌与数字名片
+# 个人品牌与数字名片
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7940)
 

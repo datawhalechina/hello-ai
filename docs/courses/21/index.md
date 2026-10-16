@@ -3,7 +3,7 @@ title: "用户研究与需求验证"
 outline: [2, 3]
 ---
 
-# 21 用户研究与需求验证
+# 用户研究与需求验证
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7911)
 

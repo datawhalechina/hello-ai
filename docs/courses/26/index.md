@@ -3,7 +3,7 @@ title: "AI备考小测"
 outline: [2, 3]
 ---
 
-# 26 AI备考小测
+# AI备考小测
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7915)
 

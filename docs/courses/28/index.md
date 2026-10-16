@@ -3,7 +3,7 @@ title: "用 AI 整理文件"
 outline: [2, 3]
 ---
 
-# 28 用 AI 整理文件
+# 用 AI 整理文件
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7918)
 

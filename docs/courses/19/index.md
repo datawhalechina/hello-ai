@@ -3,7 +3,7 @@ title: "AI for Science入门"
 outline: [2, 3]
 ---
 
-# 19 AI for Science入门
+# AI for Science入门
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7941)
 

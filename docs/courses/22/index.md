@@ -3,7 +3,7 @@ title: "用AI管理碎片化知识"
 outline: [2, 3]
 ---
 
-# 22 用AI管理碎片化知识
+# 用AI管理碎片化知识
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7945)
 

@@ -3,7 +3,7 @@ title: "学术写作与论文辅助"
 outline: [2, 3]
 ---
 
-# 20 学术写作与论文辅助
+# 学术写作与论文辅助
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7942)
 

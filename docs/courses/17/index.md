@@ -3,7 +3,7 @@ title: "用AI管理系统化学习笔记"
 outline: [2, 3]
 ---
 
-# 17 用AI管理系统化学习笔记
+# 用AI管理系统化学习笔记
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7944)
 

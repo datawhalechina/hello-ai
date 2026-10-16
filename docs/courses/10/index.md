@@ -3,7 +3,7 @@ title: "工作流自动化设计"
 outline: [2, 3]
 ---
 
-# 10 工作流自动化设计
+# 工作流自动化设计
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7935)
 

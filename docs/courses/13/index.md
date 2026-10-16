@@ -3,7 +3,7 @@ title: "短视频策划与AI制作"
 outline: [2, 3]
 ---
 
-# 13 短视频策划与AI制作
+# 短视频策划与AI制作
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7938)
 

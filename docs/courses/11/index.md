@@ -3,7 +3,7 @@ title: "如何写好AI提示词"
 outline: [2, 3]
 ---
 
-# 11 如何写好AI提示词
+# 如何写好AI提示词
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7936)
 

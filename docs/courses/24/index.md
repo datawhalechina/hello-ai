@@ -3,7 +3,7 @@ title: "AI辅助设计问卷"
 outline: [2, 3]
 ---
 
-# 24 AI辅助设计问卷
+# AI辅助设计问卷
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7913)
 

@@ -3,7 +3,7 @@ title: "信息检索与整理"
 outline: [2, 3]
 ---
 
-# 05 信息检索与整理
+# 信息检索与整理
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7928)
 

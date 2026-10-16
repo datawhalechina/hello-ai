@@ -3,7 +3,7 @@ title: "AI辅助撰写保研考研邮件"
 outline: [2, 3]
 ---
 
-# 06 AI辅助撰写保研考研邮件
+# AI辅助撰写保研考研邮件
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7930)
 

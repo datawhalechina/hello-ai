@@ -3,7 +3,7 @@ title: "AI 准备面试"
 outline: [2, 3]
 ---
 
-# 27 AI 准备面试
+# AI 准备面试
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7916)
 

@@ -3,7 +3,7 @@ title: "会议纪要自动化"
 outline: [2, 3]
 ---
 
-# 04 会议纪要自动化
+# 会议纪要自动化
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7925)
 

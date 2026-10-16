@@ -3,7 +3,7 @@ title: "数据叙事与可视化"
 outline: [2, 3]
 ---
 
-# 14 数据叙事与可视化
+# 数据叙事与可视化
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7939)
 

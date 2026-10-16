@@ -3,7 +3,7 @@ title: "做社团活动策划方案"
 outline: [2, 3]
 ---
 
-# 25 做社团活动策划方案
+# 做社团活动策划方案
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7914)
 

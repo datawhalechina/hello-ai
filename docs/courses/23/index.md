@@ -3,7 +3,7 @@ title: "使用AI辅助制作简历"
 outline: [2, 3]
 ---
 
-# 23 使用AI辅助制作简历
+# 使用AI辅助制作简历
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7912)
 

@@ -3,7 +3,7 @@ title: "数据复盘：小红书账号数据分析"
 outline: [2, 3]
 ---
 
-# 32 数据复盘：小红书账号数据分析
+# 数据复盘：小红书账号数据分析
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7924)
 

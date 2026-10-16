@@ -3,7 +3,7 @@ title: "AI辅助文档写作"
 outline: [2, 3]
 ---
 
-# 01 AI辅助文档写作
+# AI辅助文档写作
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7917)
 

@@ -3,7 +3,7 @@ title: "AI绘图/图像生成"
 outline: [2, 3]
 ---
 
-# 30 AI绘图/图像生成
+# AI绘图/图像生成
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7920)
 

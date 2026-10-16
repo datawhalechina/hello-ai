@@ -3,7 +3,7 @@ title: "AI 时代的信息辨别与独立判断"
 outline: [2, 3]
 ---
 
-# 18 AI 时代的信息辨别与独立判断
+# AI 时代的信息辨别与独立判断
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7908)
 

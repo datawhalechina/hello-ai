@@ -3,7 +3,7 @@ title: "表格数据分析"
 outline: [2, 3]
 ---
 
-# 03 表格数据分析
+# 表格数据分析
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7923)
 

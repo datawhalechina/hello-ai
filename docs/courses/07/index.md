@@ -3,7 +3,7 @@ title: "AI编程快速入门"
 outline: [2, 3]
 ---
 
-# 07 AI编程快速入门
+# AI编程快速入门
 
 [官网课程](https://www.datawhale.cn/learn/content/382/7931)
 
