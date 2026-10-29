@@ -129,6 +129,10 @@ export default defineConfig({
       {
         "text": "工作流自动化设计",
         "link": "/courses/10/"
+      },
+      {
+        "text": "开发AI工作台",
+        "link": "/courses/37/"
       }
     ]
   },
