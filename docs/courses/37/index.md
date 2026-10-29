@@ -209,5 +209,7 @@ Kimi-K3.1 Pro 的 UI 审美设计很棒，同学们在做原型设计讨论的�
 ![build in public 开源生态](../../public/course-assets/37/img-07.png)
 
 第一步，注册一个github账户给你的Agent用
-https://github.com/signup，Github开放了Cli，参与开源协作变得更加轻松
+https://github.com/signup
+
+Github开放了Cli，参与开源协作变得更加轻松
 
