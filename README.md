@@ -1,6 +1,6 @@
 <div align='center'>
   <h1>AI新手村</h1>
-  <h3>🌱 36 门 AI 入门课：从零开始，做出你的第一个 AI 作品</h3>
+  <h3>🌱 37 门 AI 入门课：从零开始，做出你的第一个 AI 作品</h3>
   <p><em>Datawhale 面向高校新生的 AI 入门项目 · 围绕真实场景边学边做</em></p>
   <img src="https://img.shields.io/github/stars/datawhalechina/hello-ai?style=flat&logo=github" alt="GitHub stars"/>
   <img src="https://img.shields.io/github/forks/datawhalechina/hello-ai?style=flat&logo=github" alt="GitHub forks"/>
@@ -17,7 +17,7 @@
 
 &emsp;&emsp;AI新手村是 Datawhale 面向刚开始接触 AI 的高校同学推出的 AI 入门项目，AI+X 高校行第八期即以《AI新手村》为主题，是它的配套落地活动。很多同学听过 AI、也试过聊几句，但不知道它在自己的学习和生活里具体能帮上什么忙。AI新手村想解决的就是这一步：不讲大而全的原理，而是从一个个真实场景出发，带你亲手用 AI 做出一个入门级作品。
 
-&emsp;&emsp;课程共 36 门，分为办公提效、编程开发、内容创作、数据智能、学习与协作、科研与求职 6 大类，每门都围绕一个高频真实场景展开：写文档、做 PPT、整理文件、剪视频、分析数据、准备面试……选一个你感兴趣的主题，边学边做，学完就能带走一个自己的作品。
+&emsp;&emsp;课程共 37 门，分为办公提效、编程开发、内容创作、数据智能、学习与协作、科研与求职 6 大类，每门都围绕一个高频真实场景展开：写文档、做 PPT、整理文件、剪视频、分析数据、准备面试……选一个你感兴趣的主题，边学边做，学完就能带走一个自己的作品。
 
 ## 📚 快速开始
 
@@ -55,11 +55,12 @@
 | [AI辅助撰写保研考研邮件](https://datawhalechina.github.io/hello-ai/courses/06/) | 邮件、商务函件、跨文化沟通等文案场景 | ✅ |
 | [用 AI 整理文件](https://datawhalechina.github.io/hello-ai/courses/28/) | 让 AI 帮你把电脑里杂乱的文件归类、改名 | ✅ |
 | [日程管理 一键导入课程文件](https://datawhalechina.github.io/hello-ai/courses/29/) | 把课程表文件转成日历，一键导入手机 | ✅ |
-| <strong>编程开发</strong>（4 门） | | |
+| <strong>编程开发</strong>（5 门） | | |
 | [AI编程快速入门](https://datawhalechina.github.io/hello-ai/courses/07/) | 从环境搭建到第一个可运行程序 | ✅ |
 | [应用快速开发](https://datawhalechina.github.io/hello-ai/courses/08/) | 用 AI 编程工具快速搭建 Web / 移动端原型 | ✅ |
 | [智能体与自动化搭建](https://datawhalechina.github.io/hello-ai/courses/09/) | 从单 Agent 到多 Agent 协作，自动执行任务 | ✅ |
 | [工作流自动化设计](https://datawhalechina.github.io/hello-ai/courses/10/) | 识别重复性工作，用低代码工具搭自动化流程 | ✅ |
+| [开发AI工作台](https://datawhalechina.github.io/hello-ai/courses/37/) | 六轮迭代开发个人效率工作台，四象限任务管理，本地双击即用 | ✅ |
 | <strong>内容创作</strong>（9 门） | | |
 | [如何写好AI提示词](https://datawhalechina.github.io/hello-ai/courses/11/) | 从基础提示到高级技巧，系统掌握高效对话方法 | ✅ |
 | [AI辅助写作全流程](https://datawhalechina.github.io/hello-ai/courses/12/) | 选题、结构化、分段写作和润色的完整流程 | ✅ |
