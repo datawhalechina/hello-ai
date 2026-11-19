@@ -9,7 +9,7 @@ outline: [2, 3]
 >
 > **学习时长：**约 5 分钟
 
-[📺 观看本课视频（微信视频号）](https://weixin.qq.com/sph/AXc402VEfn)
+[📺 观看本课视频（B站）](https://www.bilibili.com/video/BV1HJsb6JE7b/?p=9)
 
 ## 一、先说痛点
 
