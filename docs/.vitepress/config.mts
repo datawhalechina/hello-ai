@@ -39,7 +39,7 @@ export default defineConfig({
   lang: 'zh-CN',
   srcExclude: ['public/**'],
   title: "AI新手村",
-  description: "36 门 AI 入门课，从真实场景开始动手实践",
+  description: "48 门 AI 入门课，从真实场景开始动手实践",
   base: baseConfig,
   markdown: {
     math: true,
@@ -253,6 +253,56 @@ export default defineConfig({
       {
         "text": "AI 准备面试",
         "link": "/courses/27/"
+      }
+    ]
+  },
+  {
+    "text": "教师提效",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "备课提示词与教案",
+        "link": "/courses/38/"
+      },
+      {
+        "text": "分层作业与随堂测",
+        "link": "/courses/39/"
+      },
+      {
+        "text": "从教案到课件",
+        "link": "/courses/40/"
+      },
+      {
+        "text": "政策论文精读",
+        "link": "/courses/41/"
+      },
+      {
+        "text": "教学知识库搭建",
+        "link": "/courses/42/"
+      },
+      {
+        "text": "行政材料与填表",
+        "link": "/courses/43/"
+      },
+      {
+        "text": "成绩统计与学情分析",
+        "link": "/courses/44/"
+      },
+      {
+        "text": "教学自动化任务",
+        "link": "/courses/45/"
+      },
+      {
+        "text": "手机端移动办公",
+        "link": "/courses/46/"
+      },
+      {
+        "text": "一键调用常用流程",
+        "link": "/courses/47/"
+      },
+      {
+        "text": "课题组技能共享",
+        "link": "/courses/48/"
       }
     ]
   }
