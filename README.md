@@ -1,6 +1,6 @@
 <div align='center'>
   <h1>AI新手村</h1>
-  <h3>🌱 37 门 AI 入门课：从零开始，做出你的第一个 AI 作品</h3>
+  <h3>🌱 48 门 AI 入门课：从零开始，做出你的第一个 AI 作品</h3>
   <p><em>Datawhale 面向高校新生的 AI 入门项目 · 围绕真实场景边学边做</em></p>
   <img src="https://img.shields.io/github/stars/datawhalechina/hello-ai?style=flat&logo=github" alt="GitHub stars"/>
   <img src="https://img.shields.io/github/forks/datawhalechina/hello-ai?style=flat&logo=github" alt="GitHub forks"/>
@@ -17,7 +17,7 @@
 
 &emsp;&emsp;AI新手村是 Datawhale 面向刚开始接触 AI 的高校同学推出的 AI 入门项目，AI+X 高校行第八期即以《AI新手村》为主题，是它的配套落地活动。很多同学听过 AI、也试过聊几句，但不知道它在自己的学习和生活里具体能帮上什么忙。AI新手村想解决的就是这一步：不讲大而全的原理，而是从一个个真实场景出发，带你亲手用 AI 做出一个入门级作品。
 
-&emsp;&emsp;课程共 37 门，分为办公提效、编程开发、内容创作、数据智能、学习与协作、科研与求职 6 大类，每门都围绕一个高频真实场景展开：写文档、做 PPT、整理文件、剪视频、分析数据、准备面试……选一个你感兴趣的主题，边学边做，学完就能带走一个自己的作品。
+&emsp;&emsp;课程共 48 门，分为办公提效、编程开发、内容创作、数据智能、学习与协作、科研与求职、教师提效 7 大类，每门都围绕一个高频真实场景展开：写文档、做 PPT、整理文件、剪视频、分析数据、准备面试……选一个你感兴趣的主题，边学边做，学完就能带走一个自己的作品。
 
 ## 📚 快速开始
 
@@ -89,11 +89,23 @@
 | [使用AI辅助制作简历](https://datawhalechina.github.io/hello-ai/courses/23/) | 读懂岗位要求，从真实经历里挑出最相关的内容 | ✅ |
 | [AI辅助设计问卷](https://datawhalechina.github.io/hello-ai/courses/24/) | 理清调研目标、搭出框架、生成题目、检查常见错误 | ✅ |
 | [AI 准备面试](https://datawhalechina.github.io/hello-ai/courses/27/) | 用 AI 梳理经历、准备回答，迎接一场面试 | ✅ |
+| <strong>教师提效</strong>（11 门） | | |
+| [备课提示词与教案](https://datawhalechina.github.io/hello-ai/courses/38/) | 教研员明天来听课？教材改版？想创新性地上一节课？把「写教案」变成「改教案」。 | ✅ |
+| [分层作业与随堂测](https://datawhalechina.github.io/hello-ai/courses/39/) | 一个班四十人水平差一大截，布置一样的作业——好的发呆，弱的写到十点还错一半。 | ✅ |
+| [从教案到课件](https://datawhalechina.github.io/hello-ai/courses/40/) | 教案写完只是第一步，做课件才是真磨人？把找图排版这两小时，交给它。 | ✅ |
+| [政策论文精读](https://datawhalechina.github.io/hello-ai/courses/41/) | 这节课讲怎么用 AI 读长文件：政策文件、参考文献、培训材料，都能先啃一遍再决定要不要细看。 | ✅ |
+| [教学知识库搭建](https://datawhalechina.github.io/hello-ai/courses/42/) | 别每次都从零开始——把你的积累接进 WorkBuddy，让 AI 更懂你。 | ✅ |
+| [行政材料与填表](https://datawhalechina.github.io/hello-ai/courses/43/) | 这节课讲怎么用 AI 填表：课题申报书、评优评审表、学习台账、迎检材料，先把规则喂进去，再让它写。 | ✅ |
+| [成绩统计与学情分析](https://datawhalechina.github.io/hello-ai/courses/44/) | 这节课讲怎么用 AI 完成从成绩表到教学决定的完整流程。 | ✅ |
+| [教学自动化任务](https://datawhalechina.github.io/hello-ai/courses/45/) | 这节课讲 WorkBuddy 的自动化：设置一次，让它到点自动开工——以「每周教学周报」为例。 | ✅ |
+| [手机端移动办公](https://datawhalechina.github.io/hello-ai/courses/46/) | 通勤路上、开会途中，手机上发一句话，电脑上的 WorkBuddy 就开工。 | ✅ |
+| [一键调用常用流程](https://datawhalechina.github.io/hello-ai/courses/47/) | 这节课讲 Skill（技能）：把常用的标准、步骤和工具固定下来，下次遇到同类任务，不用从头解释。 | ✅ |
+| [课题组技能共享](https://datawhalechina.github.io/hello-ai/courses/48/) | 一个好方法不该只留在一个人的电脑里——把技能做成工具传出去，才是真正的传帮带。 | ✅ |
 
 ## 💡 如何学习
 
 - <strong>先学一门「如何写好AI提示词」</strong>：不管之后学哪门课，都要先学会把需求跟 AI 说清楚。
-- <strong>按场景挑课</strong>：从上面 6 大类里选一个你最近正好要做的事，比如要交报告就学「AI辅助文档写作」，要找实习就学「使用AI辅助制作简历」。
+- <strong>按场景挑课</strong>：从上面 7 大类里选一个你最近正好要做的事，比如要交报告就学「AI辅助文档写作」，要找实习就学「使用AI辅助制作简历」。
 - <strong>边学边做</strong>：每门课都以做出一个入门级作品为目标，请跟着课程实际操作一遍，而不只是看完。
 - <strong>晒出作品</strong>：做完后到对应课程页下方的评论区分享你的作品，看看别人怎么做，互相点评、交流做法。
 

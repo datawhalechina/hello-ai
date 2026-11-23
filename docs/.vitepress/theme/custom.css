@@ -395,3 +395,12 @@ td {
   width: 10%;
   /* 强制均匀分配宽度 */
 }
+
+/* 图注：与正文区分 */
+.vp-doc .fig-caption {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--vp-c-text-3);
+  text-align: center;
+  margin: -10px 0 26px;
+}
